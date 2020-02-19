@@ -77,7 +77,6 @@ li a{
 
 li a:hover{
     text-decoration: underline;
-    
 }
 
 li.logo {
@@ -122,4 +121,46 @@ li.logo {
     background-color: blue;
     border: 2px solid white;
     width: 35vw;
+}
+
+img[src="images/me.png"] {
+    padding-top: 15vh;
+}
+
+.about-me {
+    width: 50vw;
+    padding-top: 10vh;
+    font-size: 24px;
+}
+
+.online {
+    font-size: 24px;
+    max-width: 50px;
+    list-style-type: none;
+    float: left;
+}
+
+.email {
+    float: right;
+    font-size: 24px;
+    max-width: 50px;
+    list-style-type: none;
+}
+
+.contact-info {
+    height: 10vh;
+    padding: 50px;
+    width: 600px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.email li a, .online li a{
+    font-size: 24px;
+    padding: 0;
+}
+
+.email li, .online li{
+    padding: 10px;
 }
