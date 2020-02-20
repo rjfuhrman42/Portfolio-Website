@@ -42,13 +42,13 @@ html, body {
     top: 0;
     width: 100vw;
     color: white;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .fixed {
     position: fixed;
     background: black;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .menu {
@@ -57,7 +57,7 @@ html, body {
     max-width: 600px;
 
     text-align: center;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 li {
@@ -84,12 +84,12 @@ li.logo {
     overflow: hidden;
     background: white;
     color: black;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .fixed li.logo {
     max-width: 100px;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .fixed .menu {
