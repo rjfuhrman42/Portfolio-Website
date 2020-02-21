@@ -196,6 +196,11 @@ li.logo {
     background-color: black;
 }
 
+.pro-image {
+    margin-top: 175px;
+    width: 30%;
+}
+
 /* .project-heading {
     height: 20px;
     width: 40vw;
