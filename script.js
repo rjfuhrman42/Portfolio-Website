@@ -1,5 +1,5 @@
 const nav = document.querySelector('.navbar');
-const projects = document.querySelectorAll('.project');
+const test = document.querySelectorAll('.test');
 const topOfNav = nav.offsetTop;
 
 function fixNav(){
@@ -10,17 +10,21 @@ function fixNav(){
     else nav.classList.remove("fixed")
 }
 
-// function hoverOver(e) {
-//    e.target.classList.add('hovered')
+function hoverOver(e) {
+
+    test.forEach(item => {
+        if(item === e.target) item.classList.add('hovered')
+    })
    
-// }
+}
 
-// function hoverOut(e) {
-//     e.target.classList.remove('hovered')
-    
-//  } 
+function hoverOut(e) {
+    test.forEach(item => {
+        if(item === e.target) item.classList.remove('hovered')
+    })
+   
+ } 
 
-
-// projects.forEach(project => project.addEventListener('mouseover', hoverOver))
-// projects.forEach(project => project.addEventListener('mouseleave', hoverOut))
+test.forEach(test=> test.addEventListener('mouseover', hoverOver))
+test.forEach(test=> test.addEventListener('mouseleave', hoverOut))
 window.addEventListener('scroll', fixNav)
