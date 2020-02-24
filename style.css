@@ -18,6 +18,10 @@ html, body {
     background-color: #0090FF;
 }
 
+#name-header {
+    font-size: 59px;
+}
+
 #image-name-container {
     position: relative;
     margin: 0 auto;
@@ -280,4 +284,37 @@ img[src="images/me.png"] {
 
 .email li, .online li{
     padding: 10px;
+}
+
+
+@media (max-width: 1020px) {
+    .projects-grid {
+        padding-top: 10vh;
+    }
+
+    .about-content {
+        position: relative;
+        padding-top: 14vh;
+        width: 87vw;
+    }
+
+    .about-me {
+        font-size: 19px;
+    }
+
+    .contact-info {
+        width: auto;
+    }
+}
+
+@media (max-width: 675px) {
+
+    li a {
+        font-size: 17px;
+    }
+
+    #name-header { 
+        font-size: 30px;
+    }
+
 }
